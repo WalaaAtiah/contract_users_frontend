@@ -14,7 +14,7 @@ export default function Home() {
   const {tokens} = useContext(AuthContext);
 
   return (
-    <main className={styles.main}>
+    <main className={`${styles.main} dark:bg-slate-800`} >
 
       {tokens? 
       

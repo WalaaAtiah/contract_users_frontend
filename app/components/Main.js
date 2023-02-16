@@ -173,7 +173,7 @@ export default function Todo() {
       <button class="Create" onClick={CreateHandler}>Add New User</button>
       {flagForm &&
         <div className="flex justify-center w-8/12 py-4 border-solid rounded-3xl shadow-gray-300">
-          <div className=" bg-[white] border-solid  md:w-full lg:w-full  m-4 p-4 rounded-xl shadow-xl w-full">
+          <div className=" bg-[white] border-solid  md:w-full lg:w-full  m-4 p-4 rounded-xl shadow-xl w-full dark:bg-black">
             <button
               onClick={closeForm}
               className="float-right border-2 border-gray-400 border-solid rounded hover:border-3 hover:border-gray-700 "
@@ -422,7 +422,11 @@ export default function Todo() {
                                 <h3 className="py-2 text-lg font-semibold leading-5 text-white lg:text-lg lg:leading-6">Country/City : {item.Country}/{item.City}</h3>
                                 <h3 className="py-2 text-lg font-semibold leading-5 text-white lg:text-lg lg:leading-6">Contract_Start_Date : {item.Contract_Start_Date}</h3>
                                 <h3 className="py-2 text-lg font-semibold leading-5 text-white lg:text-lg lg:leading-6">Contract_End_Date : {item.Contract_End_Date}</h3>
+                                <div className="flex justify-around">
 
+                                  <button class="update" role="button" onClick={() => openModule(item)}>Update</button>
+                                  <button class="delete" role="button" onClick={() => deleteTask(item.id)}>DELETE</button>
+                                </div>
 
                               </div>
                             </div>

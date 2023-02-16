@@ -259,7 +259,7 @@ export default function UpdateTask({ isOpen, close, userInfo, setData }) {
                               >
                                 Status
                               </label>
-                              <select name="status" id="status" className="px-6 border-2">
+                              <select name="status" id="status" className="px-6 border-2" >
                                 <option value="Active">Active</option>
                                 <option value="not Active">not Active</option>
 

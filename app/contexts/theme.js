@@ -8,6 +8,7 @@ export default function ThemeWrapper({children}){
     const [isDarkTheme, setIsDarkTheme] = useState(true);
 
     function initialThemeHandle(){
+        console.log(1)
         const mode = JSON.parse(localStorage.getItem('mode'))
         if (mode==false){
             // console.log(1,isDarkTheme)
@@ -21,6 +22,7 @@ export default function ThemeWrapper({children}){
     }}
     
     function toggleThemeHandler() {
+        console.log(2)
         setIsDarkTheme(!isDarkTheme);
         document.querySelector("body").classList.toggle("dark"); // toggle dark class to the body element
         localStorage.setItem('mode', JSON.stringify(!isDarkTheme))
