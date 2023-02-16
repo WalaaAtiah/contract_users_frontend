@@ -1,3 +1,24 @@
+# Challenge test: contract_users_frountend
+
+## Auther : Walaa atiyh
+
+## backend _Repo :<https://github.com/WalaaAtiah/contract_users>
+
+## install all the package   `npm i`
+
+## the package that install is :
+
+1. npm install axios
+2. npm install sweetalert2
+3. npm install --save-dev @iconify/react
+4. npm i pure-react-carousel
+5. npm install @headlessui/react
+
+## run in local : `npm run dev`
+
+<br>
+<br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,3 +57,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+npm install axios
+npm install sweetalert2
+npm install --save-dev @iconify/react
+
+npm i pure-react-carousel
+
+npm install @headlessui/react

@@ -3,8 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  min-height: 35rem;
+  max-height: min-content;
+  /* background-color: #e2e0d7a7; */
 }
 
 .description {
